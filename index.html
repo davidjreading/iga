@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What should our group agreement cover?</title>
+<meta name="description" content="A conversation starter on the main topics a physician group governance agreement needs to settle, with options and trade-offs for each.">
+
+<link rel="stylesheet" href="css/styles.css?v=1.5">
+</head>
+<body>
+<a class="skip" href="#bands">Skip to the topics</a>
+<div class="banner" id="banner" role="note"></div>
+
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-main">
+      <h1>What should our group agreement cover?</h1>
+      <p class="lede">Our contract asks us to agree on how we work together. This page lays out the main topics, the choices on each, and what each choice trades off. Open a topic, compare the options side by side, and mark where you lean. Nothing here is decided.</p>
+      <div class="hero-actions">
+        <button class="btn primary" id="open-summary" type="button"></button>
+        <button class="btn" id="toggle-all" type="button" aria-pressed="false"></button>
+      </div>
+      <p class="version-line hero-version"></p>
+    </div>
+    <aside class="panel" aria-labelledby="how-h">
+      <h2 class="panel-title" id="how-h">Before you start</h2>
+      <ul class="how">
+        <li><span class="how-ico" data-icon="file-text"></span><div><strong>Make a summary for yourself</strong><span>Mark the options you lean toward and add notes, then use “See my summary” to copy or print them.</span></div></li>
+        <li><span class="how-ico" data-icon="shield-check"></span><div><strong>This site does not save anything</strong><span>Your choices are not stored or sent anywhere. They disappear when you close or refresh the page, so copy your summary first.</span></div></li>
+        <li><span class="how-ico" data-icon="message-circle"></span><div><strong>Have a different idea?</strong><span>Message David and he will add it as an option.</span></div></li>
+      </ul>
+    </aside>
+  </div>
+  <div class="wrap">
+    <div class="key" role="note" aria-labelledby="key-h">
+      <h2 id="key-h">Reading the options</h2>
+      <ul>
+        <li><span class="k k-group" aria-hidden="true"></span><span><strong>Gold:</strong> where the group is leaning for now. David updates this after the group talks.</span></li>
+        <li><span class="k k-ai" aria-hidden="true"></span><span><strong>Blue:</strong> the option an AI assistant (Claude) judged most practical under the current contract. One suggestion to react to, not the group’s view.</span></li>
+        <li><span class="k k-red" aria-hidden="true"></span><span><strong>Red:</strong> unlikely to meet the contract, or would need a contract change. The contract is not expected to change during its term.</span></li>
+        <li><span class="k k-hot" aria-hidden="true"></span><span><strong>Dot on a topic:</strong> raised most often when members described the group’s pain points.</span></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<main id="bands" class="wrap"></main>
+
+<section class="wrap strip" aria-labelledby="hk-h">
+  <h2 id="hk-h">Smaller topics for the final draft</h2>
+  <p class="strip-intro">These matter, but they are usually settled quickly once the big choices are made.</p>
+  <ul class="hk-list" id="hk-list"></ul>
+</section>
+
+<section class="wrap strip" aria-labelledby="pr-h">
+  <h2 id="pr-h">How we get from here to an agreement</h2>
+  <ol class="steps" id="steps"></ol>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <p><strong>About this page.</strong> It is a discussion aid, not legal, tax or accounting advice. It draws on the Doctors of BC guide and template, and on the general shape of health authority service contracts. A lawyer who knows physician groups should review any final agreement.</p>
+    <p class="version-line foot-version"></p>
+    <details class="sources">
+      <summary>Version history</summary>
+      <ul id="changelog" class="changelog"></ul>
+    </details>
+    <details class="sources">
+      <summary>Sources</summary>
+      <ul id="source-list"></ul>
+    </details>
+  </div>
+</footer>
+
+<dialog id="summary-dialog" aria-labelledby="sum-h">
+  <form method="dialog" class="dlg-head">
+    <h2 id="sum-h">My summary</h2>
+    <button class="icon-btn" aria-label="Close summary" id="close-summary"></button>
+  </form>
+  <div class="dlg-body" id="summary-body"></div>
+  <div class="dlg-foot">
+    <button class="btn primary" id="copy-summary" type="button"></button>
+    <button class="btn" id="print-summary" type="button"></button>
+    <button class="btn danger" id="clear-all" type="button">Clear my marks and notes</button>
+    <span id="dlg-status" role="status" aria-live="polite"></span>
+  </div>
+</dialog>
+
+<script src="js/config.js?v=1.5"></script>
+<script src="js/icons.js?v=1.5"></script>
+<script src="js/leaning.js?v=1.5"></script>
+<script src="js/changelog.js?v=1.5"></script>
+<script src="js/ai-picks.js?v=1.5"></script>
+<script src="js/content/1-foundations.js?v=1.5"></script>
+<script src="js/content/2-work.js?v=1.5"></script>
+<script src="js/content/3-money.js?v=1.5"></script>
+<script src="js/content/5-extras.js?v=1.5"></script>
+<script src="js/app.js?v=1.5"></script>
+</body>
+</html>
