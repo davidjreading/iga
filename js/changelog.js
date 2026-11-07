@@ -1,5 +1,8 @@
 // Newest first. Add an entry whenever the version in js/config.js changes.
 window.CHANGELOG = [
+  { version: "1.11", date: "7 November 2026", changes: [
+    "Explained under pay differences that the contract funds few specialist-rate hours, and how redistributing income would let specialists take more weeks."
+  ]},
   { version: "1.10", date: "7 November 2026", changes: [
     "Removed the legal structure question, since members are independent contractors under the contract, and refocused the money topic on pooling income."
   ]},

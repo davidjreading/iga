@@ -97,7 +97,7 @@ window.PILLARS.push(
   "title": "Pay differences by training",
   "icon": "scale",
   "question": "Should specialists and family physicians be paid the same or differently?",
-  "why": "The contract already sets different rates by credential, and the one for addiction medicine credentials is fixed. The open question is whether the group adds, evens out or leaves that as it is. The answer affects recruitment, fairness and morale.",
+  "why": "The contract already sets different rates by credential, and the one for addiction medicine credentials is fixed. It also funds only a small share of its hours at the specialist rate, fewer than the group’s specialists could work. Once those hours are used up, specialists cannot keep working at their rate, which limits how many weeks they can take. If members redistribute income so that pay is the same whichever pool the hours come from, specialists can take as many weeks as the schedule needs. The open question is whether the group adds, evens out or leaves the difference as it is, and the answer affects recruitment, fairness, morale and how many weeks specialists can work.",
   "region": "Another health authority’s contract pays a flat rate regardless of training. Another BC group’s draft agreement pays by service instead, with withdrawal management as its own category, evening and weekend premiums, and locums paid the same as members. Here the contract is not expected to change, so its rates apply for the full term.",
   "decisions": [
     {
@@ -115,7 +115,8 @@ window.PILLARS.push(
           ],
           "cons": [
             "Some may see it as unfair",
-            "May cause tension if workloads are equal"
+            "May cause tension if workloads are equal",
+            "Specialists may run out of hours funded at their rate, which limits how many weeks they can take"
           ],
           "bestWhen": "Most people accept the difference."
         },
@@ -124,6 +125,7 @@ window.PILLARS.push(
           "looks": "Members sign an agreement to redistribute part of their income among themselves, so that everyone ends up paid the same for the same work. The contract rates stay as they are.",
           "pros": [
             "Equal pay for equal work",
+            "Specialists can work as many weeks as needed, because it no longer matters which pool of hours they draw on",
             "Eases resentment",
             "Does not need the contract to change, since the contract leaves how money is divided inside the group to the group"
           ],
@@ -140,6 +142,7 @@ window.PILLARS.push(
           "pros": [
             "Rewards the hardest work directly",
             "Treats specialists and family physicians the same for the same work",
+            "Specialists are no longer limited by the small number of specialist-rate hours",
             "Used in another BC health authority group’s draft agreement"
           ],
           "cons": [
@@ -168,6 +171,7 @@ window.PILLARS.push(
   ],
   "questions": [
     "Is the difference tied to the work, to training or to recruitment?",
+    "If specialist hours run out, how do we keep specialists working the weeks the group needs from them?",
     "What would it take for us to feel the pay is fair?",
     "Do we want to decide this ourselves or ask the region?"
   ],
