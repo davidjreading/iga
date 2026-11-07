@@ -16,7 +16,7 @@ window.AI_PICKS = {
   "funding-path": {"name":"Each physician invoices independently","why":"It is the lowest-risk choice until the group gets legal and tax advice. If members later agree to redistribute income, a Representative or a small fund can be added then."},
   "diff-approach": {"name":"Keep the contract rates","why":"The rates are fixed for the contract term, and equalizing needs an income agreement and professional advice. Worth revisiting once that advice is in hand."},
   "callpay-model": {"name":"Time instead of money","why":"Funded call pay would need a contract change, and an internal premium needs pooling. Counting call toward the minimum commitment recognizes it now, at no cost."},
-  "leave-notice": {"name":"Notice scaled to the length of leave","why":"Long leaves cause the scrambles, so they need the longest lead time. Parental leave notice is already set by the contract."},
+  "leave-notice": {"name":"Notice scaled to the length of leave","why":"Longer absences need the most planning time, and a short absence needs much less. Parental leave notice is already set by the contract."},
   "leave-cover": {"name":"Locums arranged in advance","why":"Arranging a locum early for a long leave gives everyone certainty and keeps colleagues’ extra weeks to short gaps. Locums still need Island Health’s approval."},
   "leave-sick": {"name":"A set backup order","why":"Someone who is sick or in a crisis should not have to phone around. A backup order that follows the redeployment rotation is fair and predictable."},
   "lead-roles": {"name":"An elected Representative","why":"Island Health keeps its appointed lead, and the contract already provides for a Representative. This gives the group its own voice without needing anyone else to agree."},
