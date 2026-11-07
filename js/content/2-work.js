@@ -211,6 +211,219 @@ window.PILLARS.push(
 },
 
 {
+  "id": "weekends",
+  "band": "work",
+  "title": "Weekends and holidays",
+  "icon": "sun",
+  "question": "How do we decide who works which weekends and holidays?",
+  "why": "Several lines run seven days a week, and weekends also carry phone support for other sites. Weekends and holidays cost people the most in family and personal time, so how they are shared is felt more than almost any other part of the schedule. Without a clear rule, they tend to fall on the same willing people, or on whoever is left when the schedule closes.",
+  "region": "Island Health needs every seven-day line covered on weekends and holidays. It will not mind how the group shares them, provided they are reliably covered.",
+  "related": [
+    {
+      "id": "scheduling",
+      "text": "Weekends sit inside the wider scheduling rules and the choice of who builds the schedule."
+    },
+    {
+      "id": "hardfill",
+      "text": "Weekend call and recognition for hard weeks overlap with the options here."
+    }
+  ],
+  "decisions": [
+    {
+      "id": "weekend-structure",
+      "title": "How weekends fit into the schedule",
+      "intro": "Pick how a weekend is scheduled on the seven-day lines.",
+      "options": [
+        {
+          "name": "Weekends stay part of the week",
+          "looks": "Whoever works a seven-day line that week also works its weekend.",
+          "pros": [
+            "Best continuity for patients",
+            "Simple to schedule",
+            "Call and weekend phone support follow the week"
+          ],
+          "cons": [
+            "A seven-day week is a heavy block",
+            "Who gets weekends depends entirely on who takes seven-day lines"
+          ],
+          "bestWhen": "Continuity matters most and seven-day weeks are shared fairly."
+        },
+        {
+          "name": "Weekends scheduled as their own blocks",
+          "looks": "Weekdays and weekends are scheduled separately, so a different physician can take the weekend.",
+          "pros": [
+            "Spreads weekends across more people",
+            "Smaller blocks are easier to fit around family and other work"
+          ],
+          "cons": [
+            "A handover going into and out of every weekend",
+            "More slots to fill"
+          ],
+          "bestWhen": "The weekend itself is what puts people off the seven-day lines."
+        },
+        {
+          "name": "A separate weekend roster across lines",
+          "looks": "One roster covers weekend days and phone support across the lines, separate from the weekday schedule.",
+          "pros": [
+            "Weekend work can be shared across the whole group",
+            "Consolidates cross-site phone support"
+          ],
+          "cons": [
+            "The weekend physician may not know the patients",
+            "Needs clear handover and escalation",
+            "Must still meet the contract’s coverage on every line"
+          ],
+          "bestWhen": "Weekend demand is light enough for fewer physicians to cover more lines."
+        }
+      ]
+    },
+    {
+      "id": "weekend-share",
+      "title": "How weekends are shared",
+      "intro": "Pick the rule for how many weekends each person works.",
+      "options": [
+        {
+          "name": "Free choice",
+          "looks": "People sign up for the weekends they want.",
+          "pros": [
+            "Maximum flexibility",
+            "No tracking"
+          ],
+          "cons": [
+            "The same people end up with most weekends",
+            "Some weekends may go uncovered"
+          ],
+          "bestWhen": "There are plenty of volunteers for weekends.",
+          "flag": "The contract requires coverage on every seven-day line, including weekends. Weekends left uncovered would mean the group does not meet those minimums."
+        },
+        {
+          "name": "Proportional to weeks worked",
+          "looks": "Everyone works weekends in proportion to the weeks they work. Someone who works twice as many weeks works about twice as many weekends. The schedule tracks each person’s share and shows it to the group.",
+          "pros": [
+            "Fair to both full-time and part-time members",
+            "Easy to explain",
+            "Used in another BC addiction medicine group’s draft agreement"
+          ],
+          "cons": [
+            "Needs tracking across the year",
+            "Someone who works few weeks may end up with very few weekends"
+          ],
+          "bestWhen": "Members work very different numbers of weeks."
+        },
+        {
+          "name": "An equal number for everyone",
+          "looks": "Each member works the same number of weekends a year, however many weeks they work.",
+          "pros": [
+            "Simple and visibly equal"
+          ],
+          "cons": [
+            "Heavy for people who work few weeks",
+            "Light for people who work many"
+          ],
+          "bestWhen": "Members work similar numbers of weeks."
+        },
+        {
+          "name": "A fixed rotation",
+          "looks": "Weekends go to members in a set order, round and round, with swaps allowed.",
+          "pros": [
+            "Predictable, so people can plan far ahead",
+            "No negotiation each time"
+          ],
+          "cons": [
+            "Ignores how many weeks each person works",
+            "Swaps can get messy"
+          ],
+          "bestWhen": "The group values predictability over flexibility."
+        },
+        {
+          "name": "Weekends earn extra credit",
+          "looks": "A weekend counts for more than a weekday toward the minimum commitment, so people choose how many to take.",
+          "pros": [
+            "Recognizes the burden",
+            "People who prefer weekends can take more of them"
+          ],
+          "cons": [
+            "Needs agreed weights and tracking",
+            "Weekends may still go unfilled if the credit is not attractive enough"
+          ],
+          "bestWhen": "Some members genuinely prefer weekends."
+        }
+      ]
+    },
+    {
+      "id": "holiday-share",
+      "title": "How holidays are shared",
+      "intro": "Statutory holidays, and especially the winter holidays, need their own rule.",
+      "options": [
+        {
+          "name": "Treated like any other weekend",
+          "looks": "Holidays follow the same rule as weekends.",
+          "pros": [
+            "Simple",
+            "No extra rules"
+          ],
+          "cons": [
+            "The winter holidays can fall unevenly from year to year"
+          ],
+          "bestWhen": "Holidays are not a major source of friction."
+        },
+        {
+          "name": "A holiday rotation",
+          "looks": "Major holidays rotate year to year, so someone who works the winter holidays one year is off them the next.",
+          "pros": [
+            "Fair over time",
+            "People can plan years ahead"
+          ],
+          "cons": [
+            "Needs records kept from year to year",
+            "New members need a starting point in the rotation"
+          ],
+          "bestWhen": "The same people keep ending up with the winter holidays."
+        },
+        {
+          "name": "Holiday pick order",
+          "looks": "People choose holidays in an order that rotates each year, or that favours whoever worked the most holidays last year.",
+          "pros": [
+            "Gives people some choice",
+            "Rewards people who worked holidays before"
+          ],
+          "cons": [
+            "More complicated to run",
+            "The last to pick may get the least wanted days every time"
+          ],
+          "bestWhen": "People’s holiday priorities differ, for example by culture or family."
+        },
+        {
+          "name": "Volunteers first, with recognition",
+          "looks": "Holidays go first to people who volunteer, who get extra credit or first pick of next year’s holidays. Any gaps are filled by rotation.",
+          "pros": [
+            "Uses people’s different preferences",
+            "Recognizes the people who give up holidays"
+          ],
+          "cons": [
+            "Needs tracking and a backup rule"
+          ],
+          "bestWhen": "Some members are happy to work holidays others want off."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    "How many weekends a year feels fair for someone who works a typical number of weeks?",
+    "Should weekends on some lines count for more than others?",
+    "Which holidays matter most to people, and does that differ across the group?"
+  ],
+  "watch": [
+    "Counting weekends without counting holidays and weekend phone support.",
+    "Keeping the tally private. Showing each person their own share of weekends against the group’s helps it feel fair."
+  ],
+  "sources": [
+    "scheduling",
+    "equity"
+  ]
+},
+
+{
   "id": "hardfill",
   "band": "work",
   "title": "Hard-to-fill work and call",

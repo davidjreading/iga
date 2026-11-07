@@ -1,5 +1,8 @@
 // Newest first. Add an entry whenever the version in js/config.js changes.
 window.CHANGELOG = [
+  { version: "1.12", date: "7 November 2026", changes: [
+    "Added a topic on weekends and holidays, with options for how weekends fit into the schedule, how they are shared, and how holidays are shared."
+  ]},
   { version: "1.11", date: "7 November 2026", changes: [
     "Explained under pay differences that the contract funds few specialist-rate hours, and how redistributing income would let specialists take more weeks."
   ]},
