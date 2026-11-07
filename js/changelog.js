@@ -1,5 +1,8 @@
 // Newest first. Add an entry whenever the version in js/config.js changes.
 window.CHANGELOG = [
+  { version: "1.10", date: "7 November 2026", changes: [
+    "Removed the legal structure question, since members are independent contractors under the contract, and refocused the money topic on pooling income."
+  ]},
   { version: "1.9", date: "7 November 2026", changes: [
     "Reworded how covering long leaves is described, so it focuses on planning rather than burden."
   ]},

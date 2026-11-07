@@ -3,83 +3,15 @@ window.PILLARS.push(
 {
   "id": "structure",
   "band": "money",
-  "title": "Structure and how money flows",
+  "title": "Pooling income",
   "icon": "landmark",
-  "question": "Are we sharing rules, money, risk, or all three, and how does money get from Island Health to each of us?",
-  "why": "How the group is organized decides what it can do together: whether it can hold funds, who can sign, how liability and tax work, and who is responsible when something goes wrong. The Doctors of BC guide describes two basic models in BC, the association and the partnership, and recommends legal and tax advice before choosing. How money moves depends on the structure: today each physician invoices independently, and any change that shares or redistributes income, such as paying for call or hard-to-fill weeks, depends on how invoicing and payment are set up.",
-  "region": "Island Health needs a clear counterparty that can receive notices, add or replace physicians, and answer for the group. It pays the contract rate and does not mind how money is divided, provided invoices and hours reports are accurate and on time.",
+  "question": "Should we share any of our income, and if so, how much and how?",
+  "why": "Under the contract each physician is an independent contractor, so the group’s structure is already set. Each physician invoices separately and Island Health pays the contract rate. The open question is whether members pool part of that income, for example through a small association fee, to pay for things the contract does not fund: recognition for hard-to-fill weeks or call, paid leadership roles, or legal and accounting costs. Any pooling needs legal and tax advice first.",
+  "region": "Island Health pays the contract rate and does not mind how money is divided among members, provided invoices and hours reports are accurate and on time.",
   "decisions": [
     {
-      "id": "structure-form",
-      "title": "Choosing a structure",
-      "intro": "A lawyer and an accountant are essential here. These options are for orientation, not advice.",
-      "options": [
-        {
-          "name": "Association with a written GGA",
-          "looks": "Physicians stay independent contractors and invoice separately. They agree on common rules for scheduling, decisions, joining and leaving.",
-          "pros": [
-            "Matches how most groups already work",
-            "Keeps individual income and liability separate",
-            "No new entity to set up"
-          ],
-          "cons": [
-            "No shared pot, so rewarding hard-to-fill weeks means negotiating with the funder",
-            "No single party to hold funds or sign for the group",
-            "Collective duties without a vehicle to carry them"
-          ],
-          "bestWhen": "People want shared rules but not shared money."
-        },
-        {
-          "name": "Association plus a designated Representative",
-          "looks": "Same as above, with one physician named to handle notices, new-physician paperwork and, if agreed, invoicing and payment.",
-          "pros": [
-            "The contract already allows it",
-            "One point of contact for the region",
-            "Less duplicated admin"
-          ],
-          "cons": [
-            "Heavy personal workload and exposure for that person",
-            "Handling payments for others can start to look like pooling",
-            "Needs a clear mandate and a way to replace them"
-          ],
-          "bestWhen": "The group wants a single voice but not a separate entity."
-        },
-        {
-          "name": "Group entity (society or corporation)",
-          "needsChange": "The contract is written for individual physicians, or their own professional corporations, as the parties and payees. A separate group entity that holds funds or signs would need the contract to change.",
-          "looks": "A legal entity governed by the physicians that can hold funds, contract for support and sign agreements.",
-          "pros": [
-            "Allows pooling and group-level incentives",
-            "Can contract for locums or administrative help",
-            "Survives turnover in membership"
-          ],
-          "cons": [
-            "Setup and running costs, plus accounting and tax complexity",
-            "Would require changes to a contract written for individual physicians",
-            "Governing the entity becomes its own job"
-          ],
-          "bestWhen": "The group wants shared funds or shared administration over the long term."
-        },
-        {
-          "name": "Partnership",
-          "flag": "The contract states that no partnership is created between the physicians and that liability is several, not joint. A partnership would need the contract to change first.",
-          "looks": "Physicians share income and liability according to an agreed formula.",
-          "pros": [
-            "A straightforward way to share income fully",
-            "Strong shared incentives"
-          ],
-          "cons": [
-            "Shared personal liability",
-            "Significant tax and legal consequences",
-            "Sits awkwardly with the draft contract’s statement that no partnership is intended"
-          ],
-          "bestWhen": "The group is prepared for full financial integration."
-        }
-      ]
-    },
-    {
       "id": "funding-path",
-      "title": "How invoicing and payment work",
+      "title": "How much income is shared",
       "intro": "The options run from no sharing to full sharing. Treat all of them as questions for a lawyer and an accountant, not recommendations.",
       "options": [
         {
@@ -141,15 +73,15 @@ window.PILLARS.push(
     }
   ],
   "questions": [
-    "Do we want to share only rules, or also money and risk?",
-    "Who should sign and receive notices on behalf of the group?",
-    "What would we want to be able to do with money that we cannot do now?",
-    "Who would we trust to hold or move group money?"
+    "What would we want to pay for that the contract does not fund?",
+    "How much of our income would we be willing to pool, if any?",
+    "Who would we trust to hold and pay out group money, and how would we check it?",
+    "How would we explain the arrangement to a new member before they join?"
   ],
   "watch": [
-    "Choosing a structure by default instead of on legal and tax advice.",
-    "Allocating funds in a way that unintentionally looks like a partnership. The guide notes that how a group allocates payments can affect whether the CRA treats it as a partnership or an association.",
-    "Informal pooling without advice. It can create tax consequences nobody expected."
+    "Allocating funds in a way that unintentionally looks like a partnership. The Doctors of BC guide notes that how a group allocates payments can affect whether the CRA treats it as a partnership or an association.",
+    "Informal pooling without advice. It can create tax consequences nobody expected.",
+    "A fund with no clear rules on who holds it, how it is paid out and how members can see the accounts."
   ],
   "sources": [
     "guide",

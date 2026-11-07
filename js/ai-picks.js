@@ -1,7 +1,6 @@
 // Options suggested by Claude (an AI), one per decision, shown in blue.
 // These are a starting point for discussion, not the group’s view. Delete an entry to remove its highlight.
 window.AI_PICKS = {
-  "structure-form": {"name":"Association plus a designated Representative","why":"The contract already allows it, so nothing has to change. It gives the region one contact and leaves room for an internal pay agreement later, without setting up a new entity."},
   "membership-minimum": {"name":"Minimum that can be met in different ways","why":"It lets hard-to-fill weeks count for more, which the recognition and call suggestions depend on. Keeping the equivalences to clinical weeks and call, weighted by difficulty, keeps it simple to track."},
   "membership-categories": {"name":"Limited-role membership","why":"Several members already work in limited roles, and losing them would shrink a group that is already short. It needs clear rules: a smaller fixed commitment, some share of hard-to-fill work, voting on everything except changes to the minimum, and a yearly review."},
   "membership-inactive": {"name":"Review by the group after a year","why":"It keeps the membership list honest while leaving room for circumstances a fixed rule would miss."},
