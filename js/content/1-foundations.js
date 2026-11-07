@@ -96,6 +96,21 @@ window.PILLARS.push(
             "Needs limits on how long someone can hold a limited role and how many members can hold one at once"
           ],
           "bestWhen": "Several members have long-term limited roles the group wants to keep."
+        },
+        {
+          "name": "Limited role by approval only",
+          "looks": "Limited members have no minimum number of weeks and are not in the coverage pool, but they get weeks only after full members have chosen. The role is reserved for agreed circumstances, such as seniority, illness, family needs or a leadership role, and the group approves each case.",
+          "pros": [
+            "Keeps people the group would otherwise lose",
+            "Stops the limited role becoming the easy choice for everyone",
+            "Full members get something real for their commitment"
+          ],
+          "cons": [
+            "Someone has to judge each case, which can feel personal",
+            "Needs clear, written eligibility criteria",
+            "Limited members may end up with the least popular weeks that are left"
+          ],
+          "bestWhen": "The group needs most people to be full members but wants room for genuine exceptions."
         }
       ]
     },

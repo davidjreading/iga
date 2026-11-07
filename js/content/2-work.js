@@ -124,6 +124,21 @@ window.PILLARS.push(
             "Needs a tracker"
           ],
           "bestWhen": "The group wants to recognize hard-to-fill weeks but cannot change pay."
+        },
+        {
+          "name": "Scheduling order by membership",
+          "looks": "Full members choose their weeks and services first. Limited members choose from what is left. Any remaining weeks go to locums.",
+          "pros": [
+            "Makes full membership worth having",
+            "Simple to explain and run",
+            "Respects choice within each tier"
+          ],
+          "cons": [
+            "The least popular weeks, such as withdrawal management, are likely to be left until last",
+            "Limited members get less say over where they work",
+            "Needs a rule for ties among full members"
+          ],
+          "bestWhen": "The group wants choice to be the main reward for a bigger commitment."
         }
       ]
     },
@@ -303,6 +318,21 @@ window.PILLARS.push(
           "bestWhen": "A few members strongly avoid the work and others are willing to take more of it."
         },
         {
+          "name": "Members, then locums, then a coverage pool",
+          "looks": "Members sign up first. Weeks still open go to locums. If no locum is found by an agreed deadline, the gap is filled from a coverage pool of full members, rotating so everyone takes an equal share of these redeployment weeks.",
+          "pros": [
+            "Locums are tried before any member is moved",
+            "Every week still gets covered",
+            "Redeployment is shared equally"
+          ],
+          "cons": [
+            "Depends on locum support and an agreed deadline with the health authority",
+            "Redeployment comes at short notice",
+            "Only full members carry the coverage pool"
+          ],
+          "bestWhen": "Locum support is reliable enough to fill most gaps."
+        },
+        {
           "name": "Funded alternatives",
           "needsChange": "Dedicated funding, a different staffing model or a different kind of provider would change the funding or deliverables in the contract.",
           "looks": "Island Health funds a different staffing model or a different kind of provider for some of the work.",
@@ -429,17 +459,17 @@ window.PILLARS.push(
           "bestWhen": "The group thinks pay is the main reason these weeks go unfilled."
         },
         {
-          "name": "Daily stipend for hard-to-fill services",
-          "looks": "A flat amount for each day or week worked on a hard-to-fill service, on top of normal pay.",
+          "name": "Daily rate from a small association fee",
+          "looks": "Each month a small share of everyone’s billed hours goes into a group fund. It is paid out at a daily rate, after the fact, to whoever worked the weeks the group wants to reward, such as withdrawal management or weekends.",
           "pros": [
-            "Recognizes the whole day, including being on call and unpredictable",
-            "Easy to track by week",
-            "Can also be set for days with less billable time"
+            "Only a small amount of money moves between members",
+            "Targets exactly the work the group wants to encourage",
+            "Paid monthly, so the reward comes soon after the work"
           ],
           "cons": [
-            "Needs a source of funds, either the region or a group pool",
-            "Pooling raises tax and legal questions",
-            "A flat amount may feel too small or too generous as workload changes"
+            "Needs a written agreement and legal and tax advice first",
+            "Someone has to run the fund and the payouts each month",
+            "The group has to agree which weeks qualify and the rate"
           ],
           "bestWhen": "The burden is the day itself, such as availability and disruption, more than hours worked."
         },
@@ -534,7 +564,7 @@ window.PILLARS.push(
         },
         {
           "name": "Internal premium",
-          "looks": "A share of group income is paid to those who take call.",
+          "looks": "Part of a small association fee is paid to whoever takes call, such as weekend phone call for perinatal or withdrawal management.",
           "pros": [
             "Direct and visible"
           ],
