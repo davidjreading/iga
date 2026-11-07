@@ -1,5 +1,10 @@
 // Newest first. Add an entry whenever the version in js/config.js changes.
 window.CHANGELOG = [
+  { version: "1.6", date: "7 November 2026", changes: [
+    "Added a question on short-notice absences, including arranging your own cover and then escalating.",
+    "Added a question on members who do no clinical work for a long time.",
+    "Added paying by service instead of training as an option, with an example from another BC group."
+  ]},
   { version: "1.5", date: "7 November 2026", changes: [
     "Made the AI suggestions consistent between topics.",
     "Added a buyout option and a tiered credit bank to hard-to-fill work.",

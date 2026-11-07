@@ -916,6 +916,54 @@ window.PILLARS.push(
           "bestWhen": "Absences are long and known in advance."
         }
       ]
+    },
+    {
+      "id": "leave-sick",
+      "title": "Short-notice absences",
+      "intro": "Who finds cover when someone is sick or has an emergency on the day.",
+      "options": [
+        {
+          "name": "The lead finds cover",
+          "looks": "The absent physician tells the lead, who finds a replacement.",
+          "pros": [
+            "The sick person does not have to phone around",
+            "One person sees the whole picture"
+          ],
+          "cons": [
+            "Heavy, unpredictable load on the lead",
+            "Depends on the lead being reachable"
+          ],
+          "bestWhen": "The group has a lead with time and support for this."
+        },
+        {
+          "name": "Arrange your own cover, then escalate",
+          "looks": "The absent physician first tries to arrange a colleague to cover, with the lead’s help. If no one can, it goes to the lead and then to the health authority’s medical leadership.",
+          "pros": [
+            "Spreads the work of finding cover",
+            "Used in at least one other BC addiction medicine group",
+            "Clear escalation path"
+          ],
+          "cons": [
+            "Puts the burden on someone who is unwell or in a crisis",
+            "The same willing colleagues get asked every time"
+          ],
+          "bestWhen": "Absences are rare and colleagues are generally willing."
+        },
+        {
+          "name": "A set backup order",
+          "looks": "Cover follows an agreed list, such as the redeployment rotation, so the next person on the list is asked first.",
+          "pros": [
+            "No one has to phone around",
+            "Fair over time",
+            "Ties in with redeployment rules"
+          ],
+          "cons": [
+            "Needs a maintained list",
+            "The next person may be on vacation or unsuitable"
+          ],
+          "bestWhen": "Short-notice gaps are frequent enough to need a system."
+        }
+      ]
     }
   ],
   "questions": [

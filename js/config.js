@@ -1,8 +1,8 @@
 // Site settings. Edit these, not the page code.
 window.SITE = {
   // Bump the version and update time with every change, and add a line to js/changelog.js.
-  version: "1.5",
-  updated: "7 November 2026, 2:55 pm",
+  version: "1.6",
+  updated: "7 November 2026, 4:25 pm",
 
   // For an internal version, set showContractNotes to true to show notes from the draft contract.
   edition: "public",

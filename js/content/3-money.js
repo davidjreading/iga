@@ -167,7 +167,7 @@ window.PILLARS.push(
   "hot": true,
   "question": "Should specialists and family physicians be paid the same or differently?",
   "why": "The contract already sets different rates by credential, and the one for addiction medicine credentials is fixed. The open question is whether the group adds, evens out or leaves that as it is. The answer affects recruitment, fairness and morale.",
-  "region": "Another health authority’s contract pays a flat rate regardless of training. The contract is not expected to change, so its rates apply for the full term.",
+  "region": "Another health authority’s contract pays a flat rate regardless of training. Another BC group’s draft agreement pays by service instead, with withdrawal management as its own category, evening and weekend premiums, and locums paid the same as members. Here the contract is not expected to change, so its rates apply for the full term.",
   "decisions": [
     {
       "id": "diff-approach",
@@ -202,6 +202,21 @@ window.PILLARS.push(
             "Hard to maintain as people join or leave"
           ],
           "bestWhen": "The group strongly values equal pay."
+        },
+        {
+          "name": "Pay by service instead of training",
+          "looks": "Members agree to redistribute income so that pay varies by service, for example a higher rate for withdrawal management and evenings or weekends, rather than by training.",
+          "pros": [
+            "Rewards the hardest work directly",
+            "Treats specialists and family physicians the same for the same work",
+            "Used in another BC health authority group’s draft agreement"
+          ],
+          "cons": [
+            "Needs a written income agreement, with tax and legal questions to settle first",
+            "May hurt specialist recruitment",
+            "Overlaps with how hard-to-fill weeks are recognized"
+          ],
+          "bestWhen": "The group cares more about which work is done than who does it."
         },
         {
           "name": "Ask the funder for a single rate",

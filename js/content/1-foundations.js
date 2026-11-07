@@ -100,6 +100,52 @@ window.PILLARS.push(
       ]
     },
     {
+      "id": "membership-inactive",
+      "title": "If a member does no clinical work for a long time",
+      "intro": "Separate from approved leave: what happens when someone stays a member but stops working with the group.",
+      "options": [
+        {
+          "name": "No rule",
+          "looks": "Membership continues until the person resigns.",
+          "pros": [
+            "Simple",
+            "No one is pushed out"
+          ],
+          "cons": [
+            "The membership list overstates the group’s real capacity",
+            "Inactive members keep a vote"
+          ],
+          "bestWhen": "Inactivity is rare."
+        },
+        {
+          "name": "Automatic resignation after a year",
+          "looks": "A member who does no clinical work for a year, outside approved leave, is treated as having resigned. Another BC addiction medicine group’s draft agreement uses this rule.",
+          "pros": [
+            "Keeps the membership list honest",
+            "Clear and needs no vote"
+          ],
+          "cons": [
+            "Can feel abrupt",
+            "Needs a clear definition of approved leave"
+          ],
+          "bestWhen": "The group wants a clean, predictable rule."
+        },
+        {
+          "name": "Review by the group after a year",
+          "looks": "After a year with no clinical work outside approved leave, the group reviews whether the person stays a member, moves to a limited role or leaves.",
+          "pros": [
+            "Allows for individual circumstances",
+            "Still keeps the list honest"
+          ],
+          "cons": [
+            "Needs someone to start the review",
+            "Can be awkward between colleagues"
+          ],
+          "bestWhen": "Circumstances vary and the group wants discretion."
+        }
+      ]
+    },
+    {
       "id": "membership-shortfall",
       "title": "If someone keeps falling short",
       "intro": "Every option starts with a conversation. They differ in where the process ends if that does not work.",
