@@ -36,7 +36,6 @@ a{color:var(--tide)}
 .hero-grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(280px,1fr);gap:36px;align-items:start}
 h1{font-size:clamp(2.1rem,4.6vw,3.4rem);font-weight:800;max-width:16ch;margin-bottom:16px}
 .lede{font-size:1.15rem;color:var(--ink-2)}
-.dot{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--salal);flex:none}
 .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:20px}
 .panel-title{font:700 1.1rem var(--head);margin-bottom:6px}
 
@@ -69,8 +68,7 @@ h1{font-size:clamp(2.1rem,4.6vw,3.4rem);font-weight:800;max-width:16ch;margin-bo
 .tile-side{display:flex;gap:8px;align-items:center;grid-row:1;grid-column:3}
 .chev{transition:transform .2s}
 .tile.open .chev{transform:rotate(180deg)}
-.tile:not(.hot) .tile-side .dot{display:none}
-
+.tile:not(.hot) .tile-side 
 .detail{padding:4px 20px 24px;border-top:1px solid var(--line)}
 .detail[hidden]{display:none}
 .d-top{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(260px,1fr);gap:28px;margin-top:20px}
@@ -192,7 +190,6 @@ dialog[open]{display:flex;flex-direction:column}
 .k-group{background:var(--sun-t);border-color:var(--sun)}
 .k-ai{background:var(--blue-t);border-color:var(--blue)}
 .k-red{background:var(--red-t);border-color:var(--red)}
-.k-hot{width:10px;height:10px;border-radius:50%;background:var(--salal);border:0;margin:6px 4px 0}
 
 .band{margin-top:32px}
 .tile-side{gap:10px}

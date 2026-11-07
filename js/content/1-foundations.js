@@ -5,7 +5,6 @@ window.PILLARS.push(
   "band": "foundations",
   "title": "Membership, joining and leaving",
   "icon": "users",
-  "hot": true,
   "question": "Who is in the group, what do they owe it, and how do they come and go?",
   "why": "Without a stated floor, the work lands on whoever says yes, and every leave or departure sets off a scramble. A minimum also has to be fair to people in limited roles. Locums will be part of coverage whatever the group decides. They work under the agreement’s rules but are not members, so this topic is only about members. Joining and leaving belong in the same conversation: every departure opens a gap, and how people come in shapes whether the group can fill it.",
   "region": "The region wants to know the group can reliably field enough people for the contracted hours. Island Health approves every new physician, so the group’s process and the region’s need to line up.",

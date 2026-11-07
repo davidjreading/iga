@@ -75,11 +75,11 @@
       var items = P.filter(function (p) { return p.band === b.id; });
       return '<section class="band" data-band="' + b.id + '" aria-labelledby="b-' + b.id + '"><div class="band-head"><h2 id="b-' + b.id + '">' + esc(b.name) + "</h2><p>" + esc(b.blurb) + '</p></div><div class="grid">' +
         items.map(function (p) {
-          return '<article class="tile' + (p.hot ? " hot" : "") + '" id="' + p.id + '" data-id="' + p.id + '">' +
+          return '<article class="tile' + '" id="' + p.id + '" data-id="' + p.id + '">' +
             '<button type="button" class="tile-btn" aria-expanded="false" aria-controls="d-' + p.id + '">' +
             '<span class="tile-ico">' + ic(p.icon) + "</span>" +
             '<span class="tile-title">' + esc(p.title) + "</span>" +
-            '<span class="tile-side"><span class="dot" title="Raised by members" role="img" aria-label="Raised by members"></span>' + ic("chevron-down", "chev") + "</span>" +
+            '<span class="tile-side">' + ic("chevron-down", "chev") + "</span>" +
             '<span class="tile-q">' + esc(p.question) + "</span></button>" +
             '<div class="detail" id="d-' + p.id + '" hidden></div></article>';
         }).join("") + "</div></section>";

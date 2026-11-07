@@ -164,7 +164,6 @@ window.PILLARS.push(
   "band": "money",
   "title": "Pay differences by training",
   "icon": "scale",
-  "hot": true,
   "question": "Should specialists and family physicians be paid the same or differently?",
   "why": "The contract already sets different rates by credential, and the one for addiction medicine credentials is fixed. The open question is whether the group adds, evens out or leaves that as it is. The answer affects recruitment, fairness and morale.",
   "region": "Another health authority’s contract pays a flat rate regardless of training. Another BC group’s draft agreement pays by service instead, with withdrawal management as its own category, evening and weekend premiums, and locums paid the same as members. Here the contract is not expected to change, so its rates apply for the full term.",

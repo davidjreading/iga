@@ -1,5 +1,8 @@
 // Newest first. Add an entry whenever the version in js/config.js changes.
 window.CHANGELOG = [
+  { version: "1.8", date: "7 November 2026", changes: [
+    "Removed the dot that marked topics raised most by members."
+  ]},
   { version: "1.7", date: "7 November 2026", changes: [
     "Added options so the example plan discussed by the group can be built from the site: a limited role by approval only, scheduling order by membership, and members then locums then a coverage pool.",
     "Reworked the daily stipend as a daily rate paid monthly from a small association fee, and tied the internal call premium to the same fee."
