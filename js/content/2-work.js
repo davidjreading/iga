@@ -848,7 +848,7 @@ window.PILLARS.push(
   "title": "Leaves and locums",
   "icon": "life-buoy",
   "question": "What happens to the work, and to the person, when someone is away?",
-  "why": "Parental, medical, academic and vacation leave are normal, and each time someone leaves the rest of the group scrambles. Clear expectations about notice, cover and return make leave less stressful for the person and for their colleagues.",
+  "why": "Parental, medical, academic and vacation leave are normal, and without a plan, covering them falls to whoever happens to be available. Clear expectations about notice, cover and return make leave less stressful for the person and for their colleagues.",
   "region": "Island Health currently manages locums itself. A group role in finding and orienting locums would be a change worth discussing.",
   "decisions": [
     {
@@ -910,8 +910,8 @@ window.PILLARS.push(
             "Keeps continuity"
           ],
           "cons": [
-            "Burnout risk",
-            "Resentment builds when the same people cover"
+            "Long leaves can mean long stretches of extra weeks for colleagues",
+            "Without tracking, the extra work can fall unevenly"
           ],
           "bestWhen": "Long absences are rare."
         },
