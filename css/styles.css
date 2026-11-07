@@ -68,7 +68,6 @@ h1{font-size:clamp(2.1rem,4.6vw,3.4rem);font-weight:800;max-width:16ch;margin-bo
 .tile-side{display:flex;gap:8px;align-items:center;grid-row:1;grid-column:3}
 .chev{transition:transform .2s}
 .tile.open .chev{transform:rotate(180deg)}
-.tile:not(.hot) .tile-side 
 .detail{padding:4px 20px 24px;border-top:1px solid var(--line)}
 .detail[hidden]{display:none}
 .d-top{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(260px,1fr);gap:28px;margin-top:20px}
